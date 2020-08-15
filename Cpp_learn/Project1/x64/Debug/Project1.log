@@ -1,0 +1,10 @@
+﻿  basic.cpp
+  change.cpp
+  switch.cpp
+  函数.cpp
+  循环语句.cpp
+  指针.cpp
+E:\program_github\C++\Cpp_learn\Project1\指针.cpp(7,16): warning C4305: “初始化”: 从“double”到“float”截断
+  数组.cpp
+  正在生成代码...
+  Project1.vcxproj -> E:\program_github\C++\Cpp_learn\Project1\x64\Debug\Project1.exe
