@@ -1,0 +1,2 @@
+E:\program_github\C++\Cpp_learn\cpp_advanced\Debug\cpp_advanced.exe
+E:\program_github\C++\Cpp_learn\cpp_advanced\Debug\cpp_advanced.pdb
