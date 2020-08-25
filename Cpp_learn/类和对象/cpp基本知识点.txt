@@ -1,0 +1,22 @@
+C++：
+1.静态变量：类内声明，类外初始化
+class Base{
+public:
+	static int m_Age;
+};
+
+int Base::m_Age = 100;
+
+2.类中的函数不属于类的大小，分开存储
+空类的大小为1
+class Base{
+public:
+	virtual void test01(){
+		cout << "speak" << endl;
+	}
+}
+
+cout << sizeof(Base) << endl; 结果为1
+加上 virtual 之后 结果为4
+
+3.

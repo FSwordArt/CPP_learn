@@ -12,6 +12,7 @@ int& ref = a, 系统会自动转换为 int* const ref = &a
 
 /*
 void swap1(int a, int b) {
+	
 	int tmp = a;
 	a = b;
 	b = tmp;
@@ -25,6 +26,7 @@ void swap2(int* a, int* b) {
 }
 
 void swap3(int& a, int& b) {
+	
 	int tmp = a;
 	a = b;
 	b = tmp;
@@ -56,7 +58,7 @@ int main() {
 引用做函数的返回值
 */
 
-//1.不要反悔局部变量的引用
+//1.不要返回局部变量的引用
 int& test01() {
 
 	int a = 10;
@@ -79,7 +81,7 @@ int main_2() {
 	//int& ref = test02();
 	//cout << "ref = " << ref << endl;
 
-	//test02() = 1000; //相当于a = 20
+	//test02() = 1000; //相当于a = 1000
 	////test02返回的是a,a = 1000,ref是a的别名。如果函数的返回值是引用，函数的调用可以作为左值	
 	//cout << "ref = " << ref << endl;
 
